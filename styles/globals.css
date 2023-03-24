@@ -1,13 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+ 
+ 
  @tailwind base;
  @tailwind components;
  @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
-
 
 body{
-background-color: #fefefe
-
+background-color: #efebff;
+overflow-x: hidden;
 }
+
+.marquee-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    background: #efebff;
+    overflow: hidden;
+    margin: auto;
+    width: 1100px;
+    /* padding: 10px; */
+    box-shadow: -4px 0px 1px rgba(93, 49, 255, 0.6), 5px 0px 1px rgba(93, 49, 255, 0.6);
+    border-radius: 20px;
+}
+
+.marquee-wrapper h1 {
+   font-size: 20px;
+   white-space: nowrap;
+   padding: 0 6rem;
+   letter-spacing: 1px;
+   animation: marquee 4000ms linear infinite;
+}
+
+@keyframes marquee {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}
+
+
+.box-1{
+    width: 489px;
+    height: 634px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.box-2{
+    width: 489px;
+    height: 242px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+.box-3{
+    width: 489px;
+    height: 332px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+
+.parallax-effect{
+    width: 489px;
+    height: 634px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background: #efebff;
+    margin-right: 30px;
+}
+
+.inner-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-style: italic;
+    color: white;
+    transform: translateZ(60px);
+  }
+
+

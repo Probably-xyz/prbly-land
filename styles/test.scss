@@ -1,0 +1,58 @@
+
+
+.parallax-effect-glare-scale {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 489px;
+  height: 634px;
+  border: 1.5px solid #000000;
+  background: #efebff;
+  border-radius: 5px;
+  margin-right: 80px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  transform-style: preserve-3d;
+
+  .inner-element {
+    transform: translateZ(60px);
+  }
+}
+
+
+.parallax-effect-glare-scale-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 489px;
+    height: 250px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    margin-right: 80px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    transform-style: preserve-3d;
+  
+    .inner-element-2 {
+      transform: translateZ(60px);
+    }
+  }
+
+
+  .parallax-effect-glare-scale-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 489px;
+    height: 332px;
+    border: 1.5px solid #000000;
+    border-radius: 5px;
+    margin-top: 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    transform-style: preserve-3d;
+  
+    .inner-element-3 {
+      transform: translateZ(60px);
+    }
+  }

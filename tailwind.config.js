@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         "prbly-black": "#000",
         "prbly-main": "#5D31FF",
-        "prbly-white": "#fefefe",
+        "prbly-white": "#efebff",
         "prbly-green": "#AAE9BE",
         "prbly-accent": "#DEF241",
       },
