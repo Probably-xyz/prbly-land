@@ -18,7 +18,9 @@ const Boxes = () => {
         gyroscope={true}
     >
       <div className="inner-element">
-        <div className="font-Main text-prbly-black">Zero Fees box</div>
+        <div className="font-Main text-prbly-black">
+          Zero Fees box
+          </div>
         
       </div>
     </Tilt>

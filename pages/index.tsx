@@ -15,15 +15,15 @@ export default function Home() {
     <Nav/> 
 
     <div className="mx-auto flex align-middle max-w-screen-2xl">
-        <h1 className="text-6xl leading-tight text-prbly-black mx-auto align-middle p-52 text-center font-Main font-light"> Main title test hello hello title land<br/> title test  <button className="inline border font-Sub border-black w-52 h-14 text-2xl mx-2 rounded-full"> A Solution </button> hello </h1>
+        <h1 className="text-7xl leading-tight text-prbly-black mx-auto align-middle p-52 text-center font-Main font-light"> Main title test hello hello title land<br/> title test  hello </h1>
     </div>
 
 
     <Marquee />
 
 
-    <div className="mx-auto flex flex-col max-w-screen-2xl p-52 pb-24">
-          <h1 className="text-prbly-main text-base font-Sub mx-auto"> Why Prbly </h1>
+    <div className="mx-auto flex flex-col max-w-screen-2xl p-40 pb-24">
+          <h1 className="text-prbly-main text-base font-Sub mx-auto"> Solutions </h1>
           <h1 className='text-7xl leading-tight font-Main font-thin text-prbly-black mx-auto ml-20'>
             Simple yet effective
           </h1>
@@ -34,43 +34,10 @@ export default function Home() {
 
     <Boxes/>
 
-
-    <div className="flex flex-col pt-40 px-96">
-          <h1 className='text-9xl font-Main font-normal text-prbly-main'>
-            70%
-          </h1>
-          <h1 className="text-5xl font-Main text-prbly-black">
-            Stats loreme ipsum
-          </h1>
-          <h1 className="text-xl font-Sub text-prbly-black opacity-60">
-          lorem lorem lorem ipsum lorem ipsum <br/> lorem ipsum lorem  
-          </h1>
-    </div>
-
-
-    <div className="flex flex-col pt-24 relative left-2/4">
-          <h1 className='text-9xl font-Main font-normal text-prbly-main'>
-            70%
-          </h1>
-          <h1 className="text-5xl font-Main text-prbly-black">
-            Stats loreme ipsum
-          </h1>
-          <h1 className="text-xl font-Sub text-prbly-black opacity-60">
-          lorem lorem lorem ipsum lorem ipsum <br/> lorem ipsum lorem  
-          </h1>
-    </div>
-
-    {/* <div className="flex flex-col px-96">
-          <h1 className='text-9xl leading-tight font-Main font-normal text-prbly-main'>
-            70%
-          </h1>
-          <h1 className="text-4xl leading-tight font-Main text-prbly-black">
-            Stats loreme ipsum
-          </h1>
-          <h1 className="text-xl leading-tight font-Sub text-prbly-black opacity-60">
-          lorem lorem lorem ipsum lorem ipsum <br/> lorem ipsum lorem  
-          </h1>
-    </div> */}
+    <br/>
+    <br/>
+    <br/>
+   
 
     </>
   )

@@ -15,33 +15,37 @@ overflow-x: hidden;
 
 .marquee-wrapper{
     display: flex;
-    justify-content: flex-start;
-    background: #efebff;
     overflow: hidden;
+    gap: 1rem;
+    position: relative;
+    user-select: none;
+    width: 1200px;
     margin: auto;
-    width: 1100px;
-    /* padding: 10px; */
-    box-shadow: -4px 0px 1px rgba(93, 49, 255, 0.6), 5px 0px 1px rgba(93, 49, 255, 0.6);
+    box-shadow: -4px 0px 0px rgba(93, 49, 255, 0.6), 5px 0px 1px rgba(93, 49, 255, 0.6);
     border-radius: 20px;
+    padding: 6px;
 }
 
-.marquee-wrapper h1 {
-   font-size: 20px;
-   white-space: nowrap;
-   padding: 0 6rem;
-   letter-spacing: 1px;
-   animation: marquee 4000ms linear infinite;
+.marquee-content{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-around;
+    min-width: 100%;
+    /* gap: 1rem; */
 }
 
-@keyframes marquee {
-    0%{
+.scroll{
+    animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll{
+    from{
         transform: translateX(0);
     }
-    100%{
-        transform: translateX(-100%);
+    to{
+        transform: translateX(calc(-100% - 1rem));
     }
 }
-
 
 .box-1{
     width: 489px;
