@@ -5,13 +5,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 489px;
+  width: 450px;
   height: 634px;
-  border: 1.5px solid #000000;
+  border: 1px solid #cccccc;
   background: #efebff;
-  border-radius: 5px;
-  margin-right: 80px;
-  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  margin-right: 25px;
+  // box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.25);
   transform-style: preserve-3d;
 
   .inner-element {
@@ -26,11 +26,11 @@
     justify-content: center;
     align-items: center;
     width: 489px;
-    height: 250px;
-    border: 1.5px solid #000000;
-    border-radius: 5px;
+    height: 268px;
+    border: 1px solid #cccccc;
+    border-radius: 15px;
     margin-right: 80px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    // box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
     transform-style: preserve-3d;
   
     .inner-element-2 {
@@ -46,10 +46,10 @@
     align-items: center;
     width: 489px;
     height: 332px;
-    border: 1.5px solid #000000;
-    border-radius: 5px;
-    margin-top: 50px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid #cccccc;
+    border-radius: 15px;
+    margin-top: 30px;
+    // box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
     transform-style: preserve-3d;
   
     .inner-element-3 {

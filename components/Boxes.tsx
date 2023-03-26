@@ -5,14 +5,14 @@ import Tilt from "react-parallax-tilt"
 const Boxes = () => {
   return (
    <>
-   <div className="max-w-screen-2xl mx-auto flex">
+   <div className="max-w-screen-2xl mx-auto flex pt-20">
     <div className="mx-auto flex flex-row">
       <Tilt
         className="parallax-effect-glare-scale"
-        perspective={100000}
+        perspective={2000000000}
         glareEnable={true}
         glarePosition={"all"}
-        glareMaxOpacity={0.3}
+        glareMaxOpacity={0.1}
         glareColor={"#5D31FF"}
         // scale={1.02}
         gyroscope={true}
@@ -31,7 +31,7 @@ const Boxes = () => {
         className="parallax-effect-glare-scale-2"
         perspective={4000000}
         glareEnable={true}
-        glareMaxOpacity={0.3}
+        glareMaxOpacity={0.1}
         glarePosition={"all"}
         glareColor={"#DEF241"}
         // scale={1}
@@ -48,7 +48,7 @@ const Boxes = () => {
       perspective={500000}
       glareEnable={true}
       glarePosition={"all"}
-      glareMaxOpacity={0.3}
+      glareMaxOpacity={0.1}
       glareColor={"#DEF241"}
       // scale={1}
       gyroscope={true}
