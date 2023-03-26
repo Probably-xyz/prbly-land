@@ -26,12 +26,12 @@ export default function Home() {
 
     <div className="mx-auto flex flex-col max-w-screen-2xl p-40 pb-36">
           <h1 className="text-prbly-main text-base font-Sub mx-auto"> Solutions </h1>
-          {/* <h1 className='text-7xl leading-tight font-Main font-extralight text-prbly-black mx-auto ml-20'>
+          <h1 className='text-7xl leading-tight font-Main font-extralight text-prbly-black mx-auto ml-20'>
             Simple yet effective
           </h1>
           <h1 className='text-7xl leading-tight font-Main font-extralight text-prbly-black mx-auto pl-80 mt-5'>
             prbly tagline yes
-          </h1> */}
+          </h1>
           <Boxes/>
     </div>
 
